@@ -1,1 +1,21 @@
+APUNTES:
 
+Class A
+Class B:
+Mock (rueda) --> permite crear código falso
+
+Te va a devolver lo que le digas en el código entre flechas con la instrucción posterior al "when": when (dependecy.addTwo(anyInt()). --> thenReturn(10); <--
+Si necesitamos algo con lógica, utilizamos thenAnswer en lugar de thenReturn
+
+CRUD (Create, read, update, delete)
+Vamos a hacer pruebas unitarias, de integración
+
+en el MVC vamos a manejar los ambientes, se crea el crud, la arquitectura es en el framework utilizando larabel
+
+Capas para la programación:
+1. Vista --> 
+2. Lógica --> Valida
+3. Acceso a datos (base de datos, etc) --> Guarda
+
+IDAO
+Usuario: create, delete, update
